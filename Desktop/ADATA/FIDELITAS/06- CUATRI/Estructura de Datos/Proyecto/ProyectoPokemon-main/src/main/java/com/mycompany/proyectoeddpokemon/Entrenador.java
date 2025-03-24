@@ -1,7 +1,5 @@
 package com.mycompany.proyectoeddpokemon;
-
-//CLASE ENTRENADOR
-
+//cambios necesarios
 /**
  *
  * @author  *
