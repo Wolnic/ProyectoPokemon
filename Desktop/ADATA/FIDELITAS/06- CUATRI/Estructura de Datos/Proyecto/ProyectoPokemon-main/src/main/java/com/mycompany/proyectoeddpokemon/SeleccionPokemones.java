@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
+
 package com.mycompany.proyectoeddpokemon;
 
 import java.awt.*;
@@ -22,12 +19,19 @@ public class SeleccionPokemones extends javax.swing.JFrame {
     public SeleccionPokemones() {
         this.setContentPane(fondo);
         initComponents();
-        customLayout();
         
-        this.setMinimumSize(new Dimension(1920, 1080));
+        this.setResizable(false);
+        this.setMinimumSize(new Dimension(1500, 900));
         
         btnEmpezar.setFont(new Font("Arial", Font.BOLD, 30));  // Fuente más grande
         btnEmpezar.setPreferredSize(new Dimension(400, 60));  // Botón grande
+        btnPoke3.setFont(new Font("Arial", Font.BOLD, 8));  
+        btnPoke3.setPreferredSize(new Dimension(27, 27)); 
+        
+        btnPoke3.setContentAreaFilled(false);
+        btnPoke3.setBorderPainted(false);
+        btnPoke3.setFocusPainted(false);
+        btnPoke3.setOpaque(false);
     }
 
     /**
@@ -40,10 +44,13 @@ public class SeleccionPokemones extends javax.swing.JFrame {
     private void initComponents() {
 
         btnEmpezar = new javax.swing.JButton();
+        btnPoke3 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setPreferredSize(new java.awt.Dimension(1920, 1080));
 
         btnEmpezar.setBackground(new java.awt.Color(180, 255, 167));
+        btnEmpezar.setFont(new java.awt.Font("Segoe UI", 0, 30)); // NOI18N
         btnEmpezar.setForeground(new java.awt.Color(0, 0, 0));
         btnEmpezar.setText("EMPEZAR TORNEO");
         btnEmpezar.addActionListener(new java.awt.event.ActionListener() {
@@ -52,53 +59,48 @@ public class SeleccionPokemones extends javax.swing.JFrame {
             }
         });
 
+        btnPoke3.setText("1");
+        btnPoke3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnPoke3ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(114, 114, 114)
-                .addComponent(btnEmpezar, javax.swing.GroupLayout.PREFERRED_SIZE, 142, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(144, Short.MAX_VALUE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(566, 566, 566)
+                        .addComponent(btnEmpezar, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(556, 556, 556)
+                        .addComponent(btnPoke3, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(954, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(216, Short.MAX_VALUE)
-                .addComponent(btnEmpezar, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(44, 44, 44))
+                .addContainerGap(789, Short.MAX_VALUE)
+                .addComponent(btnPoke3, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(138, 138, 138)
+                .addComponent(btnEmpezar, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(66, 66, 66))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void customLayout() {
-       getContentPane().setLayout(new java.awt.GridBagLayout());
-
-        GridBagConstraints gbc = new GridBagConstraints();
-        gbc.insets = new java.awt.Insets(10, 10, 10, 10);
-
-            // Agregar un componente vacío para empujar el botón hacia abajo
-        gbc.gridx = 0;
-        gbc.gridy = 0;
-        gbc.weighty = 3.0; // Esto hará que el espacio vacío se expanda y empuje el botón hacia abajo
-        gbc.fill = GridBagConstraints.BOTH; // Llenar el espacio vacío
-        getContentPane().add(new JLabel(), gbc);
-
-        // Configuración para el JButton (colocado en la fila final)
-        gbc.gridy = 5; // Establecer el botón en la fila 1
-        gbc.weighty = 0; // Restablecer el peso en el eje Y para que el botón no expanda su espacio
-        gbc.fill = GridBagConstraints.NONE; // No expandir el botón
-        gbc.anchor = GridBagConstraints.CENTER; // Mantener el botón centrado en la fila
-        getContentPane().add(btnEmpezar, gbc);
-
-        // Asegurarse de que el tamaño se ajuste
-        pack();
-    }
-    
     private void btnEmpezarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEmpezarActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btnEmpezarActionPerformed
+
+    private void btnPoke3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPoke3ActionPerformed
+        RegistroPokemon registro = new RegistroPokemon();
+        registro.setVisible(true);
+    }//GEN-LAST:event_btnPoke3ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -138,6 +140,7 @@ public class SeleccionPokemones extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnEmpezar;
+    private javax.swing.JButton btnPoke3;
     // End of variables declaration//GEN-END:variables
 
     class FondoPanel extends JPanel {

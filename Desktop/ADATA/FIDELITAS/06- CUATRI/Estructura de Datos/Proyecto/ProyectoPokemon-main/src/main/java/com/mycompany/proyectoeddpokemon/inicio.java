@@ -99,7 +99,9 @@ public class inicio extends javax.swing.JFrame {
     }//GEN-LAST:event_txfNombreActionPerformed
 
     private void btnJugarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnJugarActionPerformed
-        // TODO add your handling code here:
+        SeleccionPokemones seleccion = new SeleccionPokemones();
+        seleccion.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_btnJugarActionPerformed
 
     /**
