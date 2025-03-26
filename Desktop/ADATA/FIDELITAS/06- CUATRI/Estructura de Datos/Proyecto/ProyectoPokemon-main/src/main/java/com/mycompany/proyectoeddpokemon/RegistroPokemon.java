@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
+
 package com.mycompany.proyectoeddpokemon;
 
 
@@ -9,23 +6,32 @@ package com.mycompany.proyectoeddpokemon;
     import javax.swing.*;
 /**
  *
- * @author gjche
+ * @author  *
+ * Ocampo Pantoja José Mario  *
+ * Sánchez Venegas Manuel Antonio  *
+ * Delgado Jiménez Alexander  *
+ * Cordoba Hernandez Giovanny Josue  *
+ * Pérez Rodríguez Carlos Roberto  *
  */
+
 public class RegistroPokemon extends javax.swing.JFrame {
 
-    /**
-     * Creates new form RegistroPokemon
-     */
-    
     private FondoPanel fondo = new FondoPanel();
-    private Image imagen;
+
     
     public RegistroPokemon() {
-        initComponents();
-        this.setContentPane(fondo);
-        this.setResizable(false);
-        
+        setTitle("Registro Pokémon");
+        setSize(500, 800); // Tamaño fijo de la ventana
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setLocationRelativeTo(null); // Centra la ventana en la pantalla
+        setResizable(false);
+
+        // Establecer el fondo antes de inicializar los componentes
+        setContentPane(fondo);
+        setLayout(null); // Layout absoluto
+        setVisible(true); // Mostrar ventana
     }
+    
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -44,11 +50,11 @@ public class RegistroPokemon extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 800, Short.MAX_VALUE)
+            .addGap(0, 4601, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1343, Short.MAX_VALUE)
+            .addGap(0, 2873, Short.MAX_VALUE)
         );
 
         pack();

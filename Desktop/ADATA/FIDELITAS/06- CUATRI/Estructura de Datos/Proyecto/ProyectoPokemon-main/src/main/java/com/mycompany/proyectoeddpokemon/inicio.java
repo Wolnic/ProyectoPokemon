@@ -5,8 +5,14 @@ import javax.swing.*;
 
 /**
  *
- * @author gjche
+ * @author  *
+ * Ocampo Pantoja José Mario  *
+ * Sánchez Venegas Manuel Antonio  *
+ * Delgado Jiménez Alexander  *
+ * Cordoba Hernandez Giovanny Josue  *
+ * Pérez Rodríguez Carlos Roberto  *
  */
+
 public class inicio extends javax.swing.JFrame {
 
     /**
