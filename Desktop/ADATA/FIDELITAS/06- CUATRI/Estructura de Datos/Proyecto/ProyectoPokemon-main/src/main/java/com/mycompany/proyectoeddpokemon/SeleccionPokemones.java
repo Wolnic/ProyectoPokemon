@@ -31,13 +31,36 @@ public class SeleccionPokemones extends javax.swing.JFrame {
         
         btnEmpezar.setFont(new Font("Arial", Font.BOLD, 30));  // Fuente más grande
         btnEmpezar.setPreferredSize(new Dimension(400, 60));  // Botón grande
+        
+        btnPoke1.setFont(new Font("Arial", Font.BOLD, 8));  
+        btnPoke1.setPreferredSize(new Dimension(27, 27)); 
+        btnPoke1.setContentAreaFilled(false);
+        btnPoke1.setBorderPainted(false);
+        btnPoke1.setFocusPainted(false);
+        btnPoke1.setOpaque(false);
+        
+        btnPoke2.setFont(new Font("Arial", Font.BOLD, 8));  
+        btnPoke2.setPreferredSize(new Dimension(27, 27)); 
+        btnPoke2.setContentAreaFilled(false);
+        btnPoke2.setBorderPainted(false);
+        btnPoke2.setFocusPainted(false);
+        btnPoke2.setOpaque(false);
+        
         btnPoke3.setFont(new Font("Arial", Font.BOLD, 8));  
         btnPoke3.setPreferredSize(new Dimension(27, 27)); 
-        
         btnPoke3.setContentAreaFilled(false);
         btnPoke3.setBorderPainted(false);
         btnPoke3.setFocusPainted(false);
         btnPoke3.setOpaque(false);
+        
+        btnPoke4.setFont(new Font("Arial", Font.BOLD, 8));  
+        btnPoke4.setPreferredSize(new Dimension(27, 27)); 
+        btnPoke4.setContentAreaFilled(false);
+        btnPoke4.setBorderPainted(false);
+        btnPoke4.setFocusPainted(false);
+        btnPoke4.setOpaque(false);
+        
+        
     }
 
     /**
@@ -50,14 +73,15 @@ public class SeleccionPokemones extends javax.swing.JFrame {
     private void initComponents() {
 
         btnEmpezar = new javax.swing.JButton();
+        btnPoke1 = new javax.swing.JButton();
+        btnPoke2 = new javax.swing.JButton();
         btnPoke3 = new javax.swing.JButton();
+        btnPoke4 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(1920, 1080));
 
         btnEmpezar.setBackground(new java.awt.Color(180, 255, 167));
         btnEmpezar.setFont(new java.awt.Font("Segoe UI", 0, 30)); // NOI18N
-        btnEmpezar.setForeground(new java.awt.Color(0, 0, 0));
         btnEmpezar.setText("EMPEZAR TORNEO");
         btnEmpezar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -65,10 +89,31 @@ public class SeleccionPokemones extends javax.swing.JFrame {
             }
         });
 
-        btnPoke3.setText("1");
+        btnPoke1.setText("1");
+        btnPoke1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnPoke1ActionPerformed(evt);
+            }
+        });
+
+        btnPoke2.setText("2");
+        btnPoke2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnPoke2ActionPerformed(evt);
+            }
+        });
+
+        btnPoke3.setText("3");
         btnPoke3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnPoke3ActionPerformed(evt);
+            }
+        });
+
+        btnPoke4.setText("4");
+        btnPoke4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnPoke4ActionPerformed(evt);
             }
         });
 
@@ -82,16 +127,28 @@ public class SeleccionPokemones extends javax.swing.JFrame {
                         .addGap(566, 566, 566)
                         .addComponent(btnEmpezar, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(556, 556, 556)
-                        .addComponent(btnPoke3, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(954, Short.MAX_VALUE))
+                        .addGap(543, 543, 543)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(btnPoke3, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnPoke1, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(349, 349, 349)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(btnPoke2, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnPoke4, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(974, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(789, Short.MAX_VALUE)
-                .addComponent(btnPoke3, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(138, 138, 138)
+                .addContainerGap(568, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnPoke1, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnPoke2, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(211, 211, 211)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnPoke3, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnPoke4, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(125, 125, 125)
                 .addComponent(btnEmpezar, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(66, 66, 66))
         );
@@ -107,6 +164,21 @@ public class SeleccionPokemones extends javax.swing.JFrame {
         RegistroPokemon registro = new RegistroPokemon();
         registro.setVisible(true);
     }//GEN-LAST:event_btnPoke3ActionPerformed
+
+    private void btnPoke1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPoke1ActionPerformed
+        RegistroPokemon registro = new RegistroPokemon();
+        registro.setVisible(true);
+    }//GEN-LAST:event_btnPoke1ActionPerformed
+
+    private void btnPoke4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPoke4ActionPerformed
+        RegistroPokemon registro = new RegistroPokemon();
+        registro.setVisible(true);
+    }//GEN-LAST:event_btnPoke4ActionPerformed
+
+    private void btnPoke2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPoke2ActionPerformed
+        RegistroPokemon registro = new RegistroPokemon();
+        registro.setVisible(true);
+    }//GEN-LAST:event_btnPoke2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -146,7 +218,10 @@ public class SeleccionPokemones extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnEmpezar;
+    private javax.swing.JButton btnPoke1;
+    private javax.swing.JButton btnPoke2;
     private javax.swing.JButton btnPoke3;
+    private javax.swing.JButton btnPoke4;
     // End of variables declaration//GEN-END:variables
 
     class FondoPanel extends JPanel {

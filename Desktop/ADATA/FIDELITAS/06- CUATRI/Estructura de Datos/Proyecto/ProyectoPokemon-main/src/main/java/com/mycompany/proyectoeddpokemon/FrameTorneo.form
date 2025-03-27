@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[2064, 1162]"/>
+    </Property>
+    <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[2064, 1162]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="lblSemi3" min="-2" pref="159" max="-2" attributes="0"/>
+                  <Component id="lblSemi2" min="-2" pref="159" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="187" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblRival7" min="-2" pref="159" max="-2" attributes="0"/>
+                              <Component id="lblRival6" min="-2" pref="159" max="-2" attributes="0"/>
+                              <Component id="lblRival5" min="-2" pref="159" max="-2" attributes="0"/>
+                              <Component id="lblRival1" min="-2" pref="159" max="-2" attributes="0"/>
+                              <Component id="lblRival3" min="-2" pref="159" max="-2" attributes="0"/>
+                              <Component id="lblRival4" min="-2" pref="159" max="-2" attributes="0"/>
+                              <Component id="lblRival2" min="-2" pref="159" max="-2" attributes="0"/>
+                              <Component id="lblUsuario" min="-2" pref="159" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="393" max="-2" attributes="0"/>
+                          <Component id="lblSemi1" min="-2" pref="159" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblFInal2" min="-2" pref="159" max="-2" attributes="0"/>
+                  <Component id="lblFinal1" min="-2" pref="159" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="0" pref="845" max="32767" attributes="0"/>
+              <Component id="lblCampeon" min="-2" pref="159" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="660" max="-2" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="403" max="-2" attributes="0"/>
+                  <Component id="lblSemi4" min="-2" pref="159" max="-2" attributes="0"/>
+                  <EmptySpace pref="1102" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="103" max="-2" attributes="0"/>
+              <Component id="lblUsuario" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Component id="lblSemi1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+              <Component id="lblRival1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblFinal1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+              <Component id="lblRival2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+              <Component id="lblSemi2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+              <Component id="lblRival3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Component id="lblCampeon" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              <Component id="lblRival4" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
+                      <Component id="lblRival5" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="111" max="-2" attributes="0"/>
+                      <Component id="lblFInal2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+              <Component id="lblRival6" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+              <Component id="lblSemi3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+              <Component id="lblRival7" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="1025" max="32767" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="494" max="-2" attributes="0"/>
+                  <Component id="lblSemi4" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="1246" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblUsuario">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Rockwell Extra Bold" size="20" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="USUARIO"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblRival1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Rockwell Extra Bold" size="20" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Rival1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblRival2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Rockwell Extra Bold" size="20" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Rival2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblRival3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Rockwell Extra Bold" size="20" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Rival3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblRival4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Rockwell Extra Bold" size="20" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Rival4"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblRival5">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Rockwell Extra Bold" size="20" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Rival5"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblRival6">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Rockwell Extra Bold" size="20" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Rival6"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblRival7">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Rockwell Extra Bold" size="20" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Rival7"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSemi1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Rockwell Extra Bold" size="20" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="CUARTO1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSemi2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Rockwell Extra Bold" size="20" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="CUARTO2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSemi3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Rockwell Extra Bold" size="20" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="CUARTO4"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSemi4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Rockwell Extra Bold" size="20" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="CUARTO3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFinal1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Rockwell Extra Bold" size="20" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="SEMIFINAL1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFInal2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Rockwell Extra Bold" size="20" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="SEMIFINAL2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCampeon">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Rockwell Extra Bold" size="20" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="CAMPEON"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
