@@ -1,117 +1,241 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 
-<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
-  <Properties>
-    <Property name="defaultCloseOperation" type="int" value="3"/>
-  </Properties>
-  <SyntheticProperties>
-    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
-    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
-  </SyntheticProperties>
-  <AuxValues>
-    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
-    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
-    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
-    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
-    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
-    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
-    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
-    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
-    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
-  </AuxValues>
+package com.mycompany.proyectoeddpokemon;
 
-  <Layout>
-    <DimensionLayout dim="0">
-      <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" attributes="0">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <EmptySpace min="-2" pref="566" max="-2" attributes="0"/>
-                      <Component id="btnEmpezar" min="-2" pref="400" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="543" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="btnPoke3" min="-2" pref="50" max="-2" attributes="0"/>
-                          <Component id="btnPoke1" min="-2" pref="50" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" pref="349" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="btnPoke2" min="-2" pref="50" max="-2" attributes="0"/>
-                          <Component id="btnPoke4" min="-2" pref="50" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-              </Group>
-              <EmptySpace pref="974" max="32767" attributes="0"/>
-          </Group>
-      </Group>
-    </DimensionLayout>
-    <DimensionLayout dim="1">
-      <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="1" attributes="0">
-              <EmptySpace pref="568" max="32767" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="btnPoke1" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                  <Component id="btnPoke2" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace min="-2" pref="211" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="btnPoke3" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                  <Component id="btnPoke4" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace min="-2" pref="125" max="-2" attributes="0"/>
-              <Component id="btnEmpezar" min="-2" pref="60" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
-          </Group>
-      </Group>
-    </DimensionLayout>
-  </Layout>
-  <SubComponents>
-    <Component class="javax.swing.JButton" name="btnEmpezar">
-      <Properties>
-        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="a7" green="ff" red="b4" type="rgb"/>
-        </Property>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Segoe UI" size="30" style="0"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="EMPEZAR TORNEO"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEmpezarActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="btnPoke1">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPoke1ActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="btnPoke2">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="2"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPoke2ActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="btnPoke3">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="3"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPoke3ActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="btnPoke4">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="4"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPoke4ActionPerformed"/>
-      </Events>
-    </Component>
-  </SubComponents>
-</Form>
+import java.awt.*;
+import javax.swing.*;
+
+/**
+ *
+ * @author  *
+ * Ocampo Pantoja José Mario  *
+ * Sánchez Venegas Manuel Antonio  *
+ * Delgado Jiménez Alexander  *
+ * Cordoba Hernandez Giovanny Josue  *
+ * Pérez Rodríguez Carlos Roberto  *
+ */
+
+public class SeleccionPokemones extends javax.swing.JFrame {
+
+    /**
+     * Creates new form SeleccionPersonajes
+     */
+    private FondoPanel fondo = new FondoPanel();
+    private Image imagen;
+    
+    public SeleccionPokemones() {
+        this.setContentPane(fondo);
+        initComponents();
+        
+        this.setResizable(false);
+        this.setMinimumSize(new Dimension(1500, 900));
+        
+        btnEmpezar.setFont(new Font("Arial", Font.BOLD, 30));  // Fuente más grande
+        btnEmpezar.setPreferredSize(new Dimension(400, 60));  // Botón grande
+        
+        btnPoke1.setFont(new Font("Arial", Font.BOLD, 8));  
+        btnPoke1.setPreferredSize(new Dimension(27, 27)); 
+        btnPoke1.setContentAreaFilled(false);
+        btnPoke1.setBorderPainted(false);
+        btnPoke1.setFocusPainted(false);
+        btnPoke1.setOpaque(false);
+        
+        btnPoke2.setFont(new Font("Arial", Font.BOLD, 8));  
+        btnPoke2.setPreferredSize(new Dimension(27, 27)); 
+        btnPoke2.setContentAreaFilled(false);
+        btnPoke2.setBorderPainted(false);
+        btnPoke2.setFocusPainted(false);
+        btnPoke2.setOpaque(false);
+        
+        btnPoke3.setFont(new Font("Arial", Font.BOLD, 8));  
+        btnPoke3.setPreferredSize(new Dimension(27, 27)); 
+        btnPoke3.setContentAreaFilled(false);
+        btnPoke3.setBorderPainted(false);
+        btnPoke3.setFocusPainted(false);
+        btnPoke3.setOpaque(false);
+        
+        btnPoke4.setFont(new Font("Arial", Font.BOLD, 8));  
+        btnPoke4.setPreferredSize(new Dimension(27, 27)); 
+        btnPoke4.setContentAreaFilled(false);
+        btnPoke4.setBorderPainted(false);
+        btnPoke4.setFocusPainted(false);
+        btnPoke4.setOpaque(false);
+        
+        
+    }
+
+    /**
+     * This method is called from within the constructor to initialize the form.
+     * WARNING: Do NOT modify this code. The content of this method is always
+     * regenerated by the Form Editor.
+     */
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
+    private void initComponents() {
+
+        btnEmpezar = new javax.swing.JButton();
+        btnPoke1 = new javax.swing.JButton();
+        btnPoke2 = new javax.swing.JButton();
+        btnPoke3 = new javax.swing.JButton();
+        btnPoke4 = new javax.swing.JButton();
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        btnEmpezar.setBackground(new java.awt.Color(180, 255, 167));
+        btnEmpezar.setFont(new java.awt.Font("Segoe UI", 0, 30)); // NOI18N
+        btnEmpezar.setText("EMPEZAR TORNEO");
+        btnEmpezar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEmpezarActionPerformed(evt);
+            }
+        });
+
+        btnPoke1.setText("1");
+        btnPoke1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnPoke1ActionPerformed(evt);
+            }
+        });
+
+        btnPoke2.setText("2");
+        btnPoke2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnPoke2ActionPerformed(evt);
+            }
+        });
+
+        btnPoke3.setText("3");
+        btnPoke3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnPoke3ActionPerformed(evt);
+            }
+        });
+
+        btnPoke4.setText("4");
+        btnPoke4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnPoke4ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(566, 566, 566)
+                        .addComponent(btnEmpezar, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(543, 543, 543)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(btnPoke3, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnPoke1, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(349, 349, 349)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(btnPoke2, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnPoke4, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(974, Short.MAX_VALUE))
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(568, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnPoke1, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnPoke2, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(211, 211, 211)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnPoke3, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnPoke4, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(125, 125, 125)
+                .addComponent(btnEmpezar, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(66, 66, 66))
+        );
+
+        pack();
+    }// </editor-fold>                        
+
+    private void btnEmpezarActionPerformed(java.awt.event.ActionEvent evt) {                                           
+        FrameTorneo torneo = new FrameTorneo();
+        torneo.setVisible(true);
+    }                                          
+
+    private void btnPoke3ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        RegistroPokemon registro = new RegistroPokemon();
+        registro.setVisible(true);
+    }                                        
+
+    private void btnPoke1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        RegistroPokemon registro = new RegistroPokemon();
+        registro.setVisible(true);
+    }                                        
+
+    private void btnPoke4ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        RegistroPokemon registro = new RegistroPokemon();
+        registro.setVisible(true);
+    }                                        
+
+    private void btnPoke2ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        RegistroPokemon registro = new RegistroPokemon();
+        registro.setVisible(true);
+    }                                        
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String args[]) {
+        /* Set the Nimbus look and feel */
+        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+         */
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(SeleccionPokemones.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(SeleccionPokemones.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(SeleccionPokemones.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(SeleccionPokemones.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+        //</editor-fold>
+        //</editor-fold>
+
+        /* Create and display the form */
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new SeleccionPokemones().setVisible(true);
+            }
+        });
+    }
+
+    // Variables declaration - do not modify                     
+    private javax.swing.JButton btnEmpezar;
+    private javax.swing.JButton btnPoke1;
+    private javax.swing.JButton btnPoke2;
+    private javax.swing.JButton btnPoke3;
+    private javax.swing.JButton btnPoke4;
+    // End of variables declaration                   
+
+    class FondoPanel extends JPanel {
+        private Image imagen;
+
+        @Override
+        protected void paintComponent(Graphics g) {
+            super.paintComponent(g);
+            if (imagen == null) {
+                imagen = new ImageIcon(getClass().getClassLoader().getResource("imagenes/fondoSeleccion.jpg")).getImage();
+            }
+            g.drawImage(imagen, 0, 0, getWidth(), getHeight(), this);
+        }
+    }
+    
+}
